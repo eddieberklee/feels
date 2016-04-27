@@ -10,10 +10,43 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.compscieddy.feels.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/card_work"
+        android:layout_width="@dimen/card_width"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:background="@color/black_transp_50">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":)"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write Details"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/card_fitness"
+        android:layout_width="@dimen/card_width"
+        android:layout_height="wrap_content"
+        android:background="@color/black_transp_50">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fitness"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":)"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write Details"/>
+    </LinearLayout>
 
 
 </RelativeLayout>
